@@ -33,12 +33,12 @@ public class Control {
 	}
 	
 	public void setCanal(int canal){
-		tv.setCanal(canal);;
+		tv.setCanal(canal);
 		}
 	
 	public void enlazar(TV tv) {
 		this.tv = tv;
-		tv.setControl(this);;
+		tv.setControl(this);
 		
 	}
 
